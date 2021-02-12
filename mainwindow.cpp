@@ -25,7 +25,7 @@ bool checkFileExists(QString filePath) {
     if (!QFile::exists(filePath)) {
         QMessageBox msgBox;
         msgBox.setWindowTitle("Error");
-        msgBox.setText("File "" + filePath + "" was not found.");
+        msgBox.setText("File '" + filePath + "' was not found.");
         msgBox.setDefaultButton(QMessageBox::Ok);
         msgBox.setIcon(QMessageBox::Critical);
         msgBox.exec();

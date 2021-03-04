@@ -18,8 +18,6 @@ public:
 private slots:
     void on_convertBtn_clicked();
 
-    void on_convertTableBtn_clicked();
-
     void on_selectFileBtn_clicked();
 
 private:

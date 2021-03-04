@@ -62,13 +62,6 @@
          <number>0</number>
         </property>
         <item>
-         <widget class="QPushButton" name="convertTableBtn">
-          <property name="text">
-           <string>Convert to XLSX table</string>
-          </property>
-         </widget>
-        </item>
-        <item>
          <widget class="QPushButton" name="convertBtn">
           <property name="enabled">
            <bool>true</bool>
@@ -90,7 +83,7 @@
      <x>0</x>
      <y>0</y>
      <width>473</width>
-     <height>22</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>

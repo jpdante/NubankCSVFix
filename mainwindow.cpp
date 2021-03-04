@@ -72,11 +72,6 @@ void MainWindow::on_convertBtn_clicked() {
     }
 }
 
-void MainWindow::on_convertTableBtn_clicked() {
-    if (!checkFileExists(ui->filePathInput->text())) return;
-
-}
-
 void MainWindow::on_selectFileBtn_clicked() {
     auto fileName = QFileDialog::getOpenFileName(this, tr("Open CSV"), "", tr("Nubank CSV (*.csv)"));
     ui->filePathInput->setText(fileName);
